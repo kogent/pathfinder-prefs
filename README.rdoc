@@ -1,0 +1,17 @@
+= PathFinder Prefs
+
+Currently this is only a simple Rakefile to install some tweaks to the Default iTerm profile that ships with PathFinder.  
+
+== Background
+
+I don't have a lot of complaints with OSX, but one I do have is that Finder is pretty close to useless (FTFF).  At the moment I am playing around with PathFinder to see if it will work and so far it seems to do the trick, although it still needs some polish.  PathFinder ships with a copy of iTerm (0.9.4.1322), but no interface to customize more than some basic settings.
+
+== Solution
+
+For right now I've grabbed the Profile.plist from the PathFinder.app package and cleaned it up and made my own changes to it.  There is a Rakefile with only one task and the default task pointing to it.
+
+The install\_iterm\_prefs task copies the plist file(s) found in the iTerm folder to the appropriate place in  '/Applications/Path Finder.app'.  It then deletes '~/Library/Preferences/com.cocoatech.PathFinder.plist'.  Ideally I'd like to update the binary plist file directly but this works for me right now. 
+
+== Usage
+  cd pathfinder-prefs
+  rake
