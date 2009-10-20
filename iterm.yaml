@@ -1,20 +1,27 @@
-iTermTerminals: 
-  Default: 
+iTermTerminals:
+  Default:
+    Double Width: true
+    Encoding: 1
+    Idle Char: 0
+    Send Idle Char: false
     Scrollback: 10000
     Default Profile: "Yes"
     Silence Bell: true
     Term Type: linux
     Blink: false
     Auto Close: true
-iTermDisplays: 
-  Default: 
+iTermDisplays:
+  Default:
     Transparency: 0.100000001490116
+    useTransparency: 1
     Default Profile: "Yes"
     Rows: 24
     Font: Monaco 12
     NAFont: Monaco 12
     Anti Alias: 1
     Disable Bold: 0
+    Vertical Character Spacing: 1
+    Horizontal Character Spacing: 1
     Ansi 0 Color: 
       Green Component: 0.0
       Blue Component: 0.0
@@ -107,3 +114,5 @@ iTermDisplays:
       Green Component: 0.0
       Blue Component: 0.0
       Red Component: 1.0
+NSWindow Frame ITTerminalWindowController: 653 339 612 747 0 0 1920 1178
+disableWarnOnQuit: true
