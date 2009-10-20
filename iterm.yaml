@@ -1,0 +1,109 @@
+iTermTerminals: 
+  Default: 
+    Scrollback: 10000
+    Default Profile: "Yes"
+    Silence Bell: true
+    Term Type: linux
+    Blink: false
+    Auto Close: true
+iTermDisplays: 
+  Default: 
+    Transparency: 0.100000001490116
+    Default Profile: "Yes"
+    Rows: 24
+    Font: Monaco 12
+    NAFont: Monaco 12
+    Anti Alias: 1
+    Disable Bold: 0
+    Ansi 0 Color: 
+      Green Component: 0.0
+      Blue Component: 0.0
+      Red Component: 0.0
+    Ansi 1 Color: 
+      Green Component: 0.0
+      Blue Component: 0.0
+      Red Component: 0.733333349227905
+    Ansi 2 Color: 
+      Green Component: 0.733333349227905
+      Blue Component: 0.0
+      Red Component: 0.0
+    Ansi 3 Color: 
+      Green Component: 0.733333349227905
+      Blue Component: 0.0
+      Red Component: 0.733333349227905
+    Ansi 4 Color: 
+      Green Component: 0.1172573
+      Blue Component: 0.9230769
+      Red Component: 0.1172573
+    Ansi 5 Color: 
+      Green Component: 0.0
+      Blue Component: 0.733333349227905
+      Red Component: 0.733333349227905
+    Ansi 6 Color: 
+      Green Component: 0.733333349227905
+      Blue Component: 0.733333349227905
+      Red Component: 0.0
+    Ansi 7 Color: 
+      Green Component: 0.733333349227905
+      Blue Component: 0.733333349227905
+      Red Component: 0.733333349227905
+    Ansi 8 Color: 
+      Green Component: 0.333333343267441
+      Blue Component: 0.333333343267441
+      Red Component: 0.333333343267441
+    Ansi 9 Color: 
+      Green Component: 0.333333343267441
+      Blue Component: 0.333333343267441
+      Red Component: 1.0
+    Ansi 10 Color: 
+      Green Component: 1.0
+      Blue Component: 0.333333343267441
+      Red Component: 0.333333343267441
+    Ansi 11 Color: 
+      Green Component: 1.0
+      Blue Component: 0.333333343267441
+      Red Component: 1.0
+    Ansi 12 Color: 
+      Green Component: 0.47549
+      Blue Component: 1.0
+      Red Component: 0.505518
+    Ansi 13 Color: 
+      Green Component: 0.333333343267441
+      Blue Component: 1.0
+      Red Component: 1.0
+    Ansi 14 Color: 
+      Green Component: 1.0
+      Blue Component: 1.0
+      Red Component: 0.333333343267441
+    Ansi 15 Color: 
+      Green Component: 1.0
+      Blue Component: 1.0
+      Red Component: 1.0
+    Cursor Color: 
+      Green Component: 0.490196108818054
+      Blue Component: 0.490196108818054
+      Red Component: 0.0
+    Cursor Text Color: 
+      Green Component: 0.294117599725723
+      Blue Component: 0.294117599725723
+      Red Component: 0.294117599725723
+    Selection Color: 
+      Green Component: 0.835300028324127
+      Blue Component: 1.0
+      Red Component: 0.709800004959106
+    Selected Text Color: 
+      Green Component: 0.0
+      Blue Component: 0.0
+      Red Component: 0.0
+    Foreground Color: 
+      Green Component: 0.941176474094391
+      Blue Component: 0.941176474094391
+      Red Component: 0.941176474094391
+    Background Color: 
+      Green Component: 0.0
+      Blue Component: 0.0
+      Red Component: 0.0
+    Bold Color: 
+      Green Component: 0.0
+      Blue Component: 0.0
+      Red Component: 1.0
