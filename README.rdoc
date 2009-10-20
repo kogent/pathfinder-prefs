@@ -10,6 +10,9 @@ I don't have a lot of complaints with OSX, but one I do have is that Finder is p
 
 Using the _plist_ & _yaml_ libraries and the osx system utility _plutil_ I load and merge my custom settings and push them back to '~/Library/Preferences/com.cocoatech.PathFinder.plist'.
 
+== Dependencies
+  plist (3.0.0)
+  
 == Usage
   cd pathfinder-prefs
   rake
