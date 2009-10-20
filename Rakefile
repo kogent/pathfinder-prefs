@@ -6,8 +6,7 @@ task :default => [:install_iterm_prefs]
 
 desc "Default: install iTerm preferences into PathFinder"
 task :install_iterm_prefs do
-  tempfile = "#{ENV['TMPDIR']}/PF.plist"
-  tempfile = "PF.plist"
+  tempfile = "pf.plist"
   path_finder_plist = "$HOME/Library/Preferences/com.cocoatech.PathFinder.plist"
   system "/usr/bin/plutil -convert xml1 #{path_finder_plist} -o #{tempfile}"
   plist = Plist::parse_xml(File.read(tempfile))
